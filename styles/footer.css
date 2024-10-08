@@ -1,0 +1,39 @@
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#contact-btn:hover {
+    background-color: #0056b3;
+}
+
+#Kontakt {
+    display: inline;
+    color: rgb(145, 56, 208);
+    font-weight: 100;
+}
+
+#Kontakt::before {
+    content: "";
+}
