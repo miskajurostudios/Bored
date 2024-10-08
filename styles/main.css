@@ -28,8 +28,3 @@ a:hover {
 a::before {
     content: "> ";
 }
-
-#Other, #Best {
-    flex: 1;              /* Každý div zabere stejný prostor */
-    margin: 0 10px;      /* Přidá mezery mezi divy */
-}
