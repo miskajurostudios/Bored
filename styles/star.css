@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 200vh;
+}
+
+.review-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.review-container img {
+  height: 50px; /* Zvětšení obrázku */
+  margin-right: 10px; /* Mezera mezi obrázkem a textem */
+}
+
+.clickable-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px; /* Velikost textu */
+  color: white; /* Bílá barva textu */
+  text-decoration: none; /* Bez podtržení */
+}
+
+.clickable-text:hover {
+  color: #d1d1d1; /* Tmavší barva při najetí */
+}
