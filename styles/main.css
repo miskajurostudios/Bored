@@ -29,3 +29,6 @@ a::before {
 review-container::before {
     content: "";
 }
+review-container:hover {
+    text-decoration: none;
+}
