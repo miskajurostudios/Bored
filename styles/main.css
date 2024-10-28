@@ -26,9 +26,10 @@ a:hover {
 a::before {
     content: "> ";
 }
-review-container::before {
+
+.review-container::before {
     content: "";
 }
-review-container:hover {
+.review-container:hover {
     text-decoration: none;
 }
