@@ -13,17 +13,17 @@ body {
 }
 
 .review-container img {
-  height: 50px; /* Zvětšení obrázku */
-  margin-right: 10px; /* Mezera mezi obrázkem a textem */
+  height: 50px;
+  margin-right: 10px;
 }
 
 .clickable-text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px; /* Velikost textu */
-  color: white; /* Bílá barva textu */
-  text-decoration: none; /* Bez podtržení */
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .clickable-text:hover {
-  color: #d1d1d1; /* Tmavší barva při najetí */
+  color: #d1d1d1;
 }
