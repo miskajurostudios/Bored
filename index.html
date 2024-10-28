@@ -8,8 +8,44 @@
     <!-- LINK CSS -->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
+	    <style>
+        body {
+            margin: 0; /* Odstranění okrajů */
+            height: 200vh; /* Výška pro testování scrollování */
+        }
+
+        .review-container {
+            position: fixed; /* Fixní pozice */
+            top: 20px; /* Vzdálenost od horního okraje */
+            right: 20px; /* Vzdálenost od pravého okraje */
+            display: flex; /* Flexbox pro zarovnání */
+            align-items: center; /* Vertikální zarovnání */
+            padding: 10px; /* Vnitřní okraj */
+            text-decoration: none; /* Bez podtržení */
+        }
+
+        .review-container img {
+            height: 50px; /* Zvětšení obrázku */
+            margin-right: 10px; /* Mezera mezi obrázkem a textem */
+        }
+
+        .clickable-text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px; /* Velikost textu */
+            color: white; /* Bílá barva textu */
+            text-decoration: none; /* Bez podtržení */
+        }
+
+        .clickable-text:hover {
+            color: #d1d1d1; /* Tmavší barva při najetí */
+        }
+    </style>
 </head>
 <body>
+    <a href="https://github.com/miskajurostudios/Bored" target="_blank" class="review-container">
+        <img id="ReviewButton" src="assets/review.png" alt="Review">
+        <span class="clickable-text">Star our GitHub repository</span>
+    </a>
     <!-- LINK JAVASCRIPT -->
     <script src="js/Bored-ChangingTextStyle.js"></script>
     <!-- HTML -->
