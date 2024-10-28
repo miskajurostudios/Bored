@@ -26,3 +26,6 @@ a:hover {
 a::before {
     content: "> ";
 }
+review-container::before {
+    content: "";
+}
