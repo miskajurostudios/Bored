@@ -11,6 +11,19 @@
     <link rel="stylesheet" type="text/css" href="styles/star.css">
 </head>
 <body>
+    <script>
+    const favicon = document.getElementById("favicon");
+    const openEyesIcon = "assets/BoredWebIcon.png";
+    const closedEyesIcon = "assets/closed-eyes.png";
+
+    setInterval(() => {
+      favicon.href = closedEyesIcon;
+      setTimeout(() => {
+        favicon.href = openEyesIcon;
+      }, 350);
+    }, 2000);
+    </script>
+    
     <a href="https://github.com/miskajurostudios/Bored" target="_blank" class="review-container">
         <img id="ReviewButton" src="assets/review.png" alt="Review">
         <span class="clickable-text">Star our GitHub repository</span>
