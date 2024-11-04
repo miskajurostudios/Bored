@@ -33,3 +33,7 @@ a::before {
 .review-container:hover {
     text-decoration: none;
 }
+
+#badge::before {
+    content: "";
+}
