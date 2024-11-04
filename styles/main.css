@@ -34,6 +34,6 @@ a::before {
     text-decoration: none;
 }
 
-#badge::before {
+#Badge::before {
     content: "";
 }
